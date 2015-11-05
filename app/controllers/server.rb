@@ -1,6 +1,7 @@
 module TrafficSpy
   class Server < Sinatra::Base
     get '/' do
+      #comment for push
       erb :index
     end
 
